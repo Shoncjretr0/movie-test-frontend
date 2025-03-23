@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.movie-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  height: 300px;
+}
+
+.movie-details {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.movie-details h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.movie-details p {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.search-wrap{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 50px
+}
+.search-main-wra{
+  margin-bottom: 20px;
+}
+.movie-title{
+  width: 180px;        
+  white-space: nowrap;  
+  overflow: hidden;    
+  text-overflow: ellipsis; 
+}
