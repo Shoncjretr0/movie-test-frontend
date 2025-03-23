@@ -78,3 +78,7 @@ code {
   overflow: hidden;    
   text-overflow: ellipsis; 
 }
+.home-btn-wrap{
+  display: flex;
+  justify-content: space-between;
+}

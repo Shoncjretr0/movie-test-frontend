@@ -22,8 +22,8 @@ const Register = () => {
 
     return (
         <Form onFinish={onFinish}>
-            <Form.Item name="username" rules={[{ required: true, message: 'Please input your username!' }]}>
-                <Input placeholder="Username" />
+            <Form.Item name="name" rules={[{ required: true, message: 'Please input your username!' }]}>
+                <Input placeholder="Name" />
             </Form.Item>
             <Form.Item name="email" rules={[{ required: true, message: 'Please input your email!' }]}>
                 <Input placeholder="Email" />
